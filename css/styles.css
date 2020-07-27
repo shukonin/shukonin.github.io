@@ -7,6 +7,17 @@ section {
     padding: 0 13vw;
 }
 
+section h2 {
+    padding-top: 10vh;
+    font-size: 2.7rem;
+    line-height: 4rem;
+}
+
+section p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
 /* .........................................my-name */
 
 header {
@@ -43,19 +54,6 @@ header {
     background-position: center;
     height: 90vh;
     display: block;
-}
-
-/* .........................................my-brief */
-
-.my-brief h2 {
-    padding-top: 10vh;
-    font-size: 2.7rem;
-    line-height: 4rem;
-}
-
-.my-brief p {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
 }
 
 /* .........................................content */
