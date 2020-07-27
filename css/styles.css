@@ -34,4 +34,9 @@ header {
 
 /* .........................................my-photo */
 
-
+.my-photo {
+    background-image: url(../images/20190608_183226832_iOS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
