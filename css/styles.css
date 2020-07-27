@@ -1,3 +1,7 @@
 body {
     font-family: 'Lato';
 }
+
+section {
+    padding: 0 5vw;
+}
