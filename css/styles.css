@@ -1,7 +1,37 @@
 body {
     font-family: 'Lato';
+    margin: 0;
 }
 
 section {
-    padding: 0 5vw;
+    padding: 0 13vw;
 }
+
+/* .........................................my-name */
+
+header {
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+}
+.my-name {
+    margin: 0;
+    padding-left: 13vw;
+    padding-bottom: 2.5vh;
+    color: white;
+    border: none;
+    background-color: black;
+    font-size: 1.5rem;
+    position: sticky;
+}
+
+/* .........................................my-title */
+
+.my-title {
+    font-size: 4.5rem;
+    padding: 8vh 13vw 5vh;
+}
+
+/* .........................................my-photo */
+
+
