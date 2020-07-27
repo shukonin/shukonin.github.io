@@ -81,3 +81,8 @@ header {
     text-decoration: underline;
 }
 
+/* ........................................ content-sections */
+
+.content-section {
+    text-align: right;
+}
