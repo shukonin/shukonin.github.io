@@ -57,3 +57,29 @@ header {
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
+
+/* .........................................content */
+
+.content {
+    background-color: black;
+    font-size: 2rem;
+}
+
+.content ul {
+    margin: 0;
+    padding: 18vh 0 10vh;
+}
+
+.content li {
+    margin: 1.3vh 0;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
