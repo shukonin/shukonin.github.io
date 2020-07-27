@@ -16,13 +16,15 @@ header {
 }
 .my-name {
     margin: 0;
-    padding-left: 13vw;
-    padding-bottom: 2.5vh;
+    padding: 1vh 0 2.5vh 13vw;
+    /* padding-left: 13vw;
+    padding-bottom: 2.5vh; */
     color: white;
     border: none;
     background-color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     position: sticky;
+    top: 0;
 }
 
 /* .........................................my-title */
@@ -37,6 +39,21 @@ header {
 .my-photo {
     background-image: url(../images/20190608_183226832_iOS.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
+    background-size: contain;
+    background-position: center;
+    height: 90vh;
+    display: block;
+}
+
+/* .........................................my-brief */
+
+.my-brief h2 {
+    padding-top: 10vh;
+    font-size: 2.7rem;
+    line-height: 4rem;
+}
+
+.my-brief p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
