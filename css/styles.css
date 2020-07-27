@@ -83,6 +83,15 @@ header {
 
 /* ........................................ content-sections */
 
-.content-section {
+.content-section h2 {
     text-align: right;
+}
+
+/* ........................................ footer */
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
