@@ -3,19 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
     <title>Fernando Cañas</title>
   </head>
   <body>
-    <main>
-      <div>
-        <h1 id="about">Hello.</h1>
-        <h2 id="work">I am</h2>
-        <h2 id="contact">Fernando</h2>
+    <main class="home">
+      <div class="home__options">
+        <h1>
+          <a href="/" id="about">Hello.</a>
+          <a href="/" id="work">I am</a>
+          <a href="/" id="contact">Fernando</a>
+        </h1>
+      </div>
+      <div class="photo">
+        <figure class="photo__container">
+          <img src="./images/photo.jpg" alt="Personal photo" />
+        </figure>
       </div>
     </main>
+    <footer>
+      <ul class="social-media">
+        <li class="icon">
+          <a
+            href="https://github.com/shukonin"
+            target="_blank"
+            class="icon-github"
+          ></a>
+        </li>
+        <li class="icon">
+          <a
+            href="https://twitter.com/shukonin"
+            target="_blank"
+            class="icon-twitter"
+          ></a>
+        </li>
+        <li class="icon">
+          <a
+            href="https://www.linkedin.com/in/fernandocanas/"
+            target="_blank"
+            class="icon-linkedin2"
+          ></a>
+        </li>
+        <li class="icon">
+          <a
+            href="https://medium.com/@shukonin"
+            target="_blank"
+            class="icon-medium"
+          ></a>
+        </li>
+      </ul>
+    </footer>
   </body>
+  <script src="./index.js"></script>
 </html>
