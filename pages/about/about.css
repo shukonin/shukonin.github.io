@@ -1,0 +1,73 @@
+header {
+  position: fixed;
+  right: 5rem;
+  top: 3rem;
+}
+
+header a {
+  text-decoration: none;
+  color: burlywood;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: margin 1s;
+}
+
+header a:hover {
+  margin-right: 1rem;
+}
+
+header a:hover::after {
+  content: 'com';
+}
+
+.title {
+  height: 100vh;
+  margin: 0 10rem;
+  padding-right: 5rem;
+  display: flex;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.about {
+  margin: 0 15rem 5rem;
+}
+
+.about h2 {
+  font-size: 3rem;
+}
+
+.about__brief {
+  font-size: 2rem;
+}
+
+.about__content {
+  font-size: 1.5rem;
+}
+
+.about__content a {
+  color: burlywood;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about__content a:hover {
+  text-decoration: underline;
+}
+
+.about__content b {
+  font-weight: 700;
+}
+
+.about__download {
+  font-size: 1.5rem;
+  color: burlywood;
+  font-weight: 500;
+  text-decoration: none;
+  transition: margin 2s;
+}
+
+.about__download:hover {
+  margin-left: 2rem;
+}
